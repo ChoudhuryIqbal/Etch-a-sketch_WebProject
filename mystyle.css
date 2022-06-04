@@ -1,17 +1,23 @@
 .canvas{
     height: 500px;
-    width:700px;
+    width:  500px;
     background-color: bisque;
-    border: 3px solid green;
+    border:  solid green;
+
+    display: flex;
+    flex-wrap: wrap;
 
     
 
 }
+
+
+
 .parent-container{
     height: 500px;
     width:1200px;
     background-color: rgb(255, 196, 214);
-    border: 3px solid black;
+    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     
@@ -34,4 +40,12 @@
     background-color: rgb(196, 255, 207);
     border: 3px solid black;
     display: flex;
+}
+
+
+.canvas > div{
+    border-style:solid;
+    border-color:black;
+    height: 26px;
+    width: 26px;
 }
