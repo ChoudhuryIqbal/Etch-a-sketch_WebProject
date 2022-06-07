@@ -1,6 +1,6 @@
 .canvas {
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
     background-color: whitesmoke;
     border: solid black;
     display: grid;
@@ -38,8 +38,6 @@
 .control-board {
     height: 500px;
     width: 400px;
-    background-color: rgb(196, 255, 207);
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -51,4 +49,31 @@
     font-weight: bolder;
     background-color: white;
     height: 100px;
+}
+
+#colorpicker {
+    width: 100px;
+}
+
+#label {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#btn {
+    margin: 50px;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    background-color: #3d94f6;
+    border-radius: 6px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
 }
