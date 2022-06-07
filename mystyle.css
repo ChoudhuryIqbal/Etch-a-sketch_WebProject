@@ -23,7 +23,7 @@
     height: 500px;
     width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .body {
@@ -40,6 +40,10 @@
     width: 400px;
     background-color: rgb(196, 255, 207);
     border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .header {

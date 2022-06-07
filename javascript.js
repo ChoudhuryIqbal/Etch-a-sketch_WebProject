@@ -15,7 +15,10 @@ rects.forEach(function(rect) {
         rect.addEventListener("mouseover", func, false)
 
         function func() {
-            rect.setAttribute("style", "background-color: black;")
+
+            let colorPicker = document.querySelector("#colorpicker")
+            let color = colorPicker.value;
+            rect.setAttribute("style", "background-color:" + color + ";");
         }
     })
     /// defautl end
