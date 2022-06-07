@@ -22,8 +22,6 @@
 .parent-container {
     height: 500px;
     width: 1200px;
-    background-color: rgb(255, 196, 214);
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
@@ -37,14 +35,16 @@
     text-align: center;
 }
 
-.header {
-    background-color: aqua;
-    height: 100px;
-}
-
 .control-board {
     height: 500px;
     width: 400px;
     background-color: rgb(196, 255, 207);
     border: 3px solid black;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: white;
+    height: 100px;
 }
